@@ -1,20 +1,18 @@
-<html>
-    <head>
-           <title>My Document</title>   
-            <script type="text/javascript">   
-                function change() {
-                    var header = document.getElementsByid("nameOne");     
-                    header.innerHTML = "CSIE@CGU";     
-
-                    var para = document.getElementsByid("nameTwo");     
-                    para.innerHTML = "怎麼那麼棒！！.";   
-                }   
+<html> 
+    <head>   
+        <title>My Document</title>   
+        <script type="text/javascript">   
+        function change() {     
+            var header = document.getElementById("name1");     
+            header.innerHTML = "CSIE@CGU";     
+            var para = document.getElementById("name2");     
+            para.innerHTML = "怎麼那麼棒！！.";   
+            }   
             </script> 
-    </head> 
-                <body>   
-                    <input type="button" value="Change this document." onclick="change()">  
-                     <h1 id="nameOne">CGU</h1>   
-                     <p id="nameTwo">好棒棒</p> 
-                </body> 
-    </head> 
-</html>
+            </head> 
+            <body>   
+                <input type="button" value="Change this document." onclick="change()">   
+                <h1 id="name1">CGU</h1>   
+                <p id="name2">好棒棒</p> 
+            </body> 
+        </head>
